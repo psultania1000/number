@@ -5,8 +5,8 @@ function StartGameScreen() {
   return (
     <View style={styles.inputContainer}>
       <TextInput />
-      <PrimaryButton>Reset!</PrimaryButton>
-      <PrimaryButton>Concdcdsfirm</PrimaryButton>
+      <PrimaryButton>Reset</PrimaryButton>
+      <PrimaryButton>Confirm</PrimaryButton>
     </View>
   );
 }
@@ -18,5 +18,6 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 16,
     marginTop: 100,
+    backgroundColor: "#7206c3",
   },
 });
